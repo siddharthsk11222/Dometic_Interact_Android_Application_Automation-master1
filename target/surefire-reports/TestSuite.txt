@@ -1,0 +1,119 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 19, Errors: 0, Skipped: 2, Time elapsed: 45.924 sec <<< FAILURE! - in TestSuite
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.02 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Basestepdefinition.tap_on_Allow_button(Basestepdefinition.java:65)
+	at ?.I Tap on Allow button in Permission popup in Login Page(src/test/java/com/dometic/SDB/features/TC02_SplashScreen.feature:5)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 2.031 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:104)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.dometic.SDB.qa.util.Baseclass.cleartext(Baseclass.java:76)
+	at com.dometic.SDB.stepdefinition.LoginScreen.iEnterValidEmail(LoginScreen.java:196)
+	at ?.I enter Valid Email(src/test/java/com/dometic/SDB/features/TC06_DashboardScreen.feature:11)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.025 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnAlertOkButton(Settings.java:1449)
+	at ?.I tap on Alert Ok button(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:5)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.dometic.SDB.stepdefinition.Settings.iVerifyTheEditCardTileName(Settings.java:1185)
+	at ?.I verify the edit card tile name(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:33)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 3.031 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.qa.util.Baseclass.cleartextaccessabilityId(Baseclass.java:83)
+	at com.dometic.SDB.stepdefinition.Settings.iEnterAnInvalidNameInEditNameField(Settings.java:1690)
+	at ?.I enter an invalid name in edit name field(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:48)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ?.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:62)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 1.014 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.qa.util.Baseclass.cleartextaccessabilityId(Baseclass.java:83)
+	at com.dometic.SDB.stepdefinition.Settings.iEnterAValidNameInEditNameField(Settings.java:1730)
+	at ?.I enter a valid name in edit name field(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:71)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ?.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:84)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ?.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:104)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnAlertOkButton(Settings.java:1449)
+	at ?.I tap on Alert Ok button(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:117)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.011 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnAlertOkButton(Settings.java:1449)
+	at ?.I tap on Alert Ok button(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:125)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.013 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnAlertOkButton(Settings.java:1449)
+	at ?.I tap on Alert Ok button(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:141)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.017 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.qa.util.Baseclass.asserttextValidationAccessibility(Baseclass.java:96)
+	at com.dometic.SDB.stepdefinition.Settings.iVerifyTheMainCoolerSettingText(Settings.java:1752)
+	at ?.I Verify the main cooler setting text(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:205)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ?.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:226)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iVerifyVersionIsDisplayed(Settings.java:60)
+	at ?.I verify Version is displayed(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:236)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ?.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:242)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 5.02 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ?.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:266)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 0.006 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.dometic.SDB.stepdefinition.Settings.tVerifyTemperatureUnitIsDisplayed(Settings.java:49)
+	at ?.I Verify Temperature unit text is displayed(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:277)
+
+feature(com.dometic.SDB.androidrunner.SDB_runner)  Time elapsed: 5.014 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.dometic.SDB.stepdefinition.Settings.iVerifyLanguagesIsDisplayed(Settings.java:43)
+	at ?.I verify Languages text is displayed(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:283)
+

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="39" time="750.661576">
+<testcase classname="Verifying application Splash screen in Dometic LMC/ERIBA application" name="Launching the application" time="36.523732">
+<system-out><![CDATA[Given I Launch the application..............................................passed
+Then I Wait for Page to Load................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Splash screen in Dometic LMC/ERIBA application" name="Verifying application Splash screen Functionality" time="10.553439">
+<system-out><![CDATA[Then I Tap on Allow button in Permission popup in Login Page................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Verify Page title is displayed in Login Page.........................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Verifying application Signup Screen UI" time="12.482693">
+<system-out><![CDATA[Then I Tap on signup link in login page.....................................passed
+Then I Verify create your account text is displayed in Signup Page..........passed
+Then I Verify Email field label is displayed in Signup page.................passed
+Then I Verify Email Inputbox is displayed in Signup Page....................passed
+Then I Verify Password field label is displayed in Signup page..............passed
+Then I Verify Password Inputbox is displayed in Signup Page.................passed
+Then I Verify Confirm password label is displayed in the signup page........passed
+Then I Verify Confirm Password Inputbox is displayed in Signup Page.........passed
+Then I verify I agree to text is displayed in Signup page...................passed
+Then I Verify mandatory text is displayed in signup page....................passed
+Then I Verify Terms&Condition Text is displayed in Signup page..............passed
+Then I Verify Marketing Text is displayed in signup page....................passed
+Then I Verify More information text is displayed in signup page.............passed
+Then I Verify Signup button is displayed in Signup Page.....................passed
+Then I Verify Aldready have an account text is displayed in Signup page.....passed
+Then I Verify Login text is displayed in signup page........................passed
+Then I Tap on term and conditions checkbox..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Empty Email and Enter the password and verify password" time="23.655009">
+<system-out><![CDATA[Then I left the Email blank.................................................passed
+Then I enter Password in Signup Page........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then Email field is required Error message is displayed.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Enter the Email and Empty password and verify password" time="13.175292">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I left the password blank..............................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then The password field is required Error message is displayed..............passed
+Then Doesn't match Error message is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Enter Valid email valid password and empty verify password" time="22.268695">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter Password in Signup Page........................................passed
+Then I left the Verify password blank.......................................passed
+Then I Tap on Signup button.................................................passed
+Then The verify password field is required Error message is displayed.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Enter inValid email, password and valid verify password" time="13.007341">
+<system-out><![CDATA[Then I enter Invalid Email in Signup Page...................................passed
+Then I enter Password in Signup Page........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then The email must be a valid email address Error message is displayed.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Enter Valid email, invalid password and valid verify password" time="13.039466">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter invalid Password in Signup Page................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Signup button.................................................passed
+Then The password doesn't satisfy the conditions Error message is displayed.passed
+Then Doesn't match Error message is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Enter Valid email, password and invalid verify password" time="12.947456">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter Password in Signup Page........................................passed
+And I enter invalid verify password password in Signup Page.................passed
+Then I Tap on Signup button.................................................passed
+Then Doesn't match Error message is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Verifying application Signup Screen Functionality with invalid credentials(Checking password text field with below 8 character)" time="19.422761">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter an password below 8 characters in Password Field in Signup Page.passed
+Then I enter an password below 8 characters in confirm Password Field in Signup Page.passed
+Then I Tap on Signup button.................................................passed
+Then The password doesn't satisfy the conditions Error message is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Verifying application Signup Screen Functionality with invalid credentials(Checking password text field with Above 8 character)" time="19.40453">
+<system-out><![CDATA[Then I enter Email in Signup Page...........................................passed
+Then I enter an password above 8 characters in Password Field in Signup Page.passed
+Then I enter an password above 8 characters in confirm Password Field in Signup Page.passed
+Then I Tap on Signup button.................................................passed
+Then The password doesn't satisfy the conditions Error message is displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Verifying application Signup Screen Functionality with invalid credentials(Checking text field allowing Emoji's)" time="32.905385">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I enter an Emoji's in Email Field in Signup Page.......................passed
+And I enter Password in Signup Page.........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Send button in Signup Page....................................passed
+Then The email must be a valid email address Error message is displayed.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Verifying application Signup Screen Functionality with invalid credentials(Checking text field allowing Special Character)" time="33.026019">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I enter an Special Character in Email Field in Signup Page.............passed
+And I enter Password in Signup Page.........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Send button in Signup Page....................................passed
+Then The email must be a valid email address Error message is displayed.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Signup page in Dometic LMC/ERIBA application" name="Verifying application Signup Functionality" time="44.408144">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I Tap on signup link in login page.....................................passed
+And I enter Email in Signup Page............................................passed
+And I enter Password in Signup Page.........................................passed
+And I enter confirm password in Signup Page.................................passed
+Then I Tap on Send button in Signup Page....................................passed
+Then I Tap on Ok button.....................................................passed
+Then I Tap on login link in signup page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Forgot Password page in Dometic LMC/ERIBA application" name="Verifying application Forgot Password Screen UI" time="2.457024">
+<system-out><![CDATA[Then I tap on forgot password in the login page.............................passed
+Then I verify Forgot your password text is displayed in Forgot password Page.passed
+Then I verify Forgot your password content text is displayed in Forgot password Page.passed
+Then I Verify Forgot Email Input text field is displayed in Login Page......passed
+Then I Verify Send button is displayed in Forgot password Page..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Forgot Password page in Dometic LMC/ERIBA application" name="Verifying application Forgot Password Screen Functionality with Blank Email field" time="15.269061">
+<system-out><![CDATA[Then I verify blank email in email text field in forgot password page.......passed
+Then I Tap on Send button in Forgot Password Page...........................passed
+Then I verify E-mail field is required Error message is displayed...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Forgot Password page in Dometic LMC/ERIBA application" name="Verifying application Forgot Password Screen Functionality with invalid Email address" time="7.563115">
+<system-out><![CDATA[Then I enter a invalid email address in Email Field in Forgot Password Page.passed
+Then I Tap on Send button in Forgot Password Page...........................passed
+Then The email must be a valid email address Error message is displayed.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Forgot Password page in Dometic LMC/ERIBA application" name="Verifying application Forgot Password Functionality(Checking text field allowing Emoji's)" time="13.399446">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I enter an Emoji's in Email Field in Forgot Password Page..............passed
+Then I Tap on Send button in Forgot Password Page...........................passed
+Then The email must be a valid email address Error message is displayed.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Forgot Password page in Dometic LMC/ERIBA application" name="Verifying application Forgot Password Functionality(Checking text field allowing Special Character)" time="12.553938">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+Then I enter an Special Character in Email Field in Forgot Password Page....passed
+Then I Tap on Send button in Forgot Password Page...........................passed
+Then The email must be a valid email address Error message is displayed.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Forgot Password page in Dometic LMC/ERIBA application" name="Verifying application Forgot Password Functionality" time="10.942654">
+<system-out><![CDATA[Then I Wait short period for Page to Load...................................passed
+And I enter Email in Login Page.............................................passed
+Then I Tap on Send button in Forgot Password Page...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Verifying application Login Page" time="3.220749">
+<system-out><![CDATA[Then I verify Welcome! Text is displayed in login screen....................passed
+Then I verify Log In Text is displayed in login screen......................passed
+Then I verify E-mail label is displayed in login page.......................passed
+Then I verify Password label is displayed in login page.....................passed
+Then I verify Forgot password? link is displayed in login page..............passed
+Then I verify Sign Up link is displayed in login page.......................passed
+Then I verify Login CTA is displayed in login page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Login with blank email and blank password field" time="28.836276">
+<system-out><![CDATA[Then I verify blank email in email text field...............................passed
+Then I verify blank password in password text field.........................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The Email field is required Error message is displayed in login page...passed
+Then The Password field is required Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Login with Invalid Email with valid password" time="21.128585">
+<system-out><![CDATA[Then I enter Invalid Email in Login Page....................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on Login button in Login Page....................................passed
+Then Error message is displayed.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Login with Valid email and invalid password" time="21.691104">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter an Invalid Password in Login Page..............................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The password must be at least 8 characters. Error message is displayed in login page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Login with Valid email and blank password" time="6.186781">
+<skipped><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I verify black password in password text field.........................undefined
+Then I Tap on Login button in Login Page....................................skipped
+Then The Password field is required Error message is displayed in login page.skipped
+]]></skipped>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Login with empty email and valid password" time="0.001893">
+<skipped><![CDATA[Then I verify black email in email text field...............................undefined
+Then I enter Valid Password in Login Page...................................skipped
+Then I Tap on Login button in Login Page....................................skipped
+Then The Email field is required Error message is displayed in login page...skipped
+]]></skipped>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Verifying application Login Functionality with invalid credentials" time="20.632688">
+<system-out><![CDATA[Then I enter Invalid Email in Login Page....................................passed
+Then I enter an Invalid Password in Login Page..............................passed
+Then I Tap on Login button in Login Page....................................passed
+Then Error message is displayed.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Verifying application Login Functionality with invalid credentials(Checking text field allowing Emoji's)" time="12.625137">
+<system-out><![CDATA[Then I enter an Emoji's in Email Field in Login Page........................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The email must be a valid email address Error message is displayed.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Verifying application Login Functionality with invalid credentials(Checking text field allowing Special Character)" time="12.570362">
+<system-out><![CDATA[Then I enter an Special Character in Email Field in Login Page..............passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on Login button in Login Page....................................passed
+Then The email must be a valid email address Error message is displayed.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Login screen in Dometic LMC/ERIBA application" name="Verifying application Login Functionality with valid credentials" time="11.660046">
+<system-out><![CDATA[Then I enter Valid Email in Login Page......................................passed
+Then I enter Valid Password in Login Page...................................passed
+Then I Tap on an Login button in Login Page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Dashboard screen in Dometic LMC/ERIBA application" name="Verifying application DashBoard screen functionality" time="43.491924">
+<system-out><![CDATA[Then I entered into Home Page...............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Marine Tile...................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Wait until Landing screen is displayed...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Settings Screen in Dometic LMC/ERIBA application" name="Verify the Device Management onboard screen UI" time="32.85395">
+<system-out><![CDATA[Then I Tap on hamburger menu in landing screen..............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device Management option......................................passed
+Then I Tap on add new button in device Management...........................passed
+Then I Tap on ok Button in No Device Onboarded popup........................passed
+Then I Verify the On-boarding screen Title..................................passed
+Then I Wait for Page to Load................................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the close button in onboarding screen.........................passed
+Then I Verify No device Found text in Onboarding screen.....................passed
+Then I Verify the Search again button in onboarding screen..................passed
+Then I Tap on the close button in onboarding screen.........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on back button on onboarded device page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Settings Screen in Dometic LMC/ERIBA application" name="Verifying Device Management screen UI" time="26.577704">
+<system-out><![CDATA[Then I Tap on hamburger menu in landing screen..............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device Management option......................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on the onboarded device for ERIBA................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify Device Management header......................................passed
+Then I verify Device Management back button.................................passed
+Then I verify Device image..................................................passed
+Then I verify the display of Device name....................................passed
+Then I verify the vessel information text in Device Management..............passed
+Then I verify Name text in Device Management................................passed
+Then I verify the same device name is displayed.............................passed
+Then I verify Edit vessel...................................................passed
+Then I verify Edit vessel navigation button in Device Management............passed
+Then I verify Advanced text in Device Management............................passed
+Then I verify Check updates.................................................passed
+Then I verify Check updated button..........................................passed
+Then I verify Unreg,Del,Offboard text.......................................passed
+Then I verify Unreg,Del,Offboard navigation button..........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device Management back button.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on back button on onboarded device page..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Settings Screen in Dometic LMC/ERIBA application" name="Verifying Device Management Edit vessel UI and functionality" time="59.593263">
+<failure message="org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'MYTSL02746', ip: '10.36.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: D:\Dometic_Interact_Android..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: D:\Dometic_Interact_Android..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel 4, fullReset: true, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 46fce7e9-dbf7-4168-ba52-0f15bb507aae&#10;*** Element info: {Using=accessibility id, value=com.dometicapp:id/Dashboard-cardText}&#13;&#10;&#9;at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;&#10;&#9;at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)&#13;&#10;&#9;at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)&#13;&#10;&#9;at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)&#13;&#10;&#9;at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)&#13;&#10;&#9;at com.dometic.L1.stepdefinition.Settings.iVerifyTheUpdatedDeviceNameInHomeScreen(Settings.java:366)&#13;&#10;&#9;at ✽.I verify the updated device name in Home screen(src/test/java/com/dometic/L1/features/TC12_Settings.feature:77)&#13;&#10;"><![CDATA[Then I Tap on hamburger menu in landing screen..............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device Management option......................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on the onboarded device for ERIBA................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I tap on Edit vessel text in Device Management.........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify Edit vessel header text.......................................passed
+Then I verify close button in Edit vessel...................................passed
+Then I verify Name text in Edit vessel......................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I enter new vessel name................................................passed
+Then I verify Mac address text in Edit vessel...............................passed
+Then I verify Mac address is display........................................passed
+Then I verify Save button for Edit vessel...................................passed
+Then I tap on Save button in Edit vessel....................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify New vessel name under image...................................passed
+Then I verify New vessel name...............................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Device Management back button.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify if the device name is updated in onboarded device.............passed
+Then I tap on back button on onboarded device page..........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the updated device name in Home screen........................failed
+Then I Wait short period for Page to Load...................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MYTSL02746', ip: '10.36.0.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\Dometic_Interact_Android..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, databaseEnabled: false, desired: {app: D:\Dometic_Interact_Android..., appActivity: com.dometicapp.SplashActivity, appPackage: com.dometicapp, deviceName: Pixel 4, fullReset: true, platformName: android, platformVersion: 11}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, fullReset: true, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.75, platform: LINUX, platformName: LINUX, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 46fce7e9-dbf7-4168-ba52-0f15bb507aae
+*** Element info: {Using=accessibility id, value=com.dometicapp:id/Dashboard-cardText}
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAccessibilityId.findElementByAccessibilityId(FindsByAccessibilityId.java:37)
+	at com.dometic.L1.stepdefinition.Settings.iVerifyTheUpdatedDeviceNameInHomeScreen(Settings.java:366)
+	at ✽.I verify the updated device name in Home screen(src/test/java/com/dometic/L1/features/TC12_Settings.feature:77)
+]]></failure>
+</testcase>
+<testcase classname="Verifying application Settings Screen in Dometic LMC/ERIBA application" name="Verify the Account Settings Main Screen UI" time="2.588663">
+<system-out><![CDATA[Then I Tap on Hamburger menu................................................passed
+Then I Tap on View Edit Account link........................................passed
+Then I verify the Account Settings Header...................................passed
+Then I verify the Profile photo.............................................passed
+Then I Verify the Settings text.............................................passed
+Then I verify the Profile text..............................................passed
+Then I Verify the Profile card icon.........................................passed
+Then I verify the Subscriptions text........................................passed
+Then I verify the Subscriptions navigation icon.............................passed
+Then I Tap on back button in Account settings screen........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Settings Screen in Dometic LMC/ERIBA application" name="Verify the Profile Main screen UI" time="23.392604">
+<system-out><![CDATA[Then I Tap on Hamburger Menu button.........................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on view Edit Account button link.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Profile Card icon in Account settings screen..................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify Profile title text............................................passed
+Then I verify the profile photo in Profile screen...........................passed
+Then I verify the Personal information text.................................passed
+Then I verify the Name Label................................................passed
+Then I verify the Email Label...............................................passed
+Then I verify the Mobile Label..............................................passed
+Then I verify the Address Label.............................................passed
+Then I verify the Edit profile text in Profile page.........................passed
+Then I verify the Edit profile button card icon.............................passed
+Then I verify the Security text.............................................passed
+Then I scroll up the screen.................................................passed
+Then I verify the Password text.............................................passed
+Then I verify the Renew card title..........................................passed
+Then I verify the Renew card icon...........................................passed
+Then I Tap on back button in Profile screen.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on back button in Account settings screen........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Settings Screen in Dometic LMC/ERIBA application" name="Verify the Subscriptions Main screen UI" time="31.96911">
+<system-out><![CDATA[Then I Tap on hamburger menu in landing screen..............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on view Edit Account button link.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on the Subscriptions navigation icon.............................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify Subscriptions title text......................................passed
+Then I verify the Back button in Subscriptions Page.........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on back button in Account settings screen........................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on back button in Account settings screen........................passed
+Then I Wait short period for Page to Load...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying application Settings Screen in Dometic LMC/ERIBA application" name="Verify the Edit Profile Main screen UI" time="22.629421">
+<system-out><![CDATA[Then I Tap on Hamburger Menu button.........................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on view Edit Account button link.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on Profile Card icon in Account settings screen..................passed
+Then I Tap on Edit Profile button card icon.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I verify the Edit profile title text...................................passed
+Then I verify Edit profile photo image......................................passed
+Then I verify the Edit profile First Name text..............................passed
+Then I verify the Edit profile Last Name Label..............................passed
+Then I verify the Primary mobile Label......................................passed
+Then I verify the Edit Profile Address label................................passed
+Then I verify the Edit Profile Save button text.............................passed
+Then I Tap on Edit Profile cancel button image..............................passed
+Then I Tap on back button in Profile screen.................................passed
+Then I Wait short period for Page to Load...................................passed
+Then I Tap on back button in Account settings screen........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing an Dometic LMC application" name="Verifying application status" time="0.006116">
+<system-out><![CDATA[Then I write the status as Automation script is done once completed the execution.passed
+]]></system-out>
+</testcase>
+</testsuite>

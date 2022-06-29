@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="26.928" tests="22" errors="0" skipped="2" failures="19">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\40012176.LNTIES\Dometic_Interact_Automation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\40012176.LNTIES\Dometic_Interact_Automation"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\400121~1.LNT\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Java\jdk1.8.0_202\bin;D:\apache-maven-3.8.1\bin;C:\Users\40012176.LNTIES\AppData\Local\Android\Sdk\platform-tools;C:\Users\40012176.LNTIES\AppData\Local\Android\Sdk\tools;C:\Program Files\Git\cmd;C:\Program Files\Python39;C:\Program Files\Python39\Scripts;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\40012176.LNTIES\AppData\Local\Microsoft\WindowsApps;C:\Users\40012176.LNTIES\AppData\Roaming\npm;D:\Microsoft VS Code\bin;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.8.1\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\40012176.LNTIES"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="40012176"/>
+    <property name="java.class.path" value="D:\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="26.928"/>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.02">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Basestepdefinition.tap_on_Allow_button(Basestepdefinition.java:65)
+	at ✽.I Tap on Allow button in Permission popup in Login Page(src/test/java/com/dometic/SDB/features/TC02_SplashScreen.feature:5)
+</failure>
+    <system-out><![CDATA[Scenario Starts
+src/test/java/com/dometic/SDB/features/TC02_SplashScreen.feature:4
+before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="2.031">
+    <failure type="java.lang.NullPointerException:"><![CDATA[java.lang.NullPointerException: null
+	at com.google.common.base.Preconditions.checkNotNull(Preconditions.java:882)
+	at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:104)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:71)
+	at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:45)
+	at com.dometic.SDB.qa.util.Baseclass.cleartext(Baseclass.java:76)
+	at com.dometic.SDB.stepdefinition.LoginScreen.iEnterValidEmail(LoginScreen.java:196)
+	at ✽.I enter Valid Email(src/test/java/com/dometic/SDB/features/TC06_DashboardScreen.feature:11)
+]]></failure>
+    <system-out><![CDATA[Scenario Starts
+src/test/java/com/dometic/SDB/features/TC06_DashboardScreen.feature:4
+before step
+com.dometicapp:id/login-emailTextfield
+NullPointerException thrown!
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.025">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnAlertOkButton(Settings.java:1449)
+	at ✽.I tap on Alert Ok button(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:5)
+</failure>
+    <system-out><![CDATA[Scenario Starts
+src/test/java/com/dometic/SDB/features/TC07_Settings.feature:4
+before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.013">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.dometic.SDB.stepdefinition.Settings.iVerifyTheEditCardTileName(Settings.java:1185)
+	at ✽.I verify the edit card tile name(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:33)
+</failure>
+    <system-out><![CDATA[before step
+NullPointerException thrown!
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="3.031">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.qa.util.Baseclass.cleartextaccessabilityId(Baseclass.java:83)
+	at com.dometic.SDB.stepdefinition.Settings.iEnterAnInvalidNameInEditNameField(Settings.java:1690)
+	at ✽.I enter an invalid name in edit name field(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:48)
+</failure>
+    <system-out><![CDATA[before step
+com.dometicapp:id/deviceManagement-editVessel-cardIcon
+NullPointerException thrown!
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.006">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ✽.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:62)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="1.014">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.qa.util.Baseclass.cleartextaccessabilityId(Baseclass.java:83)
+	at com.dometic.SDB.stepdefinition.Settings.iEnterAValidNameInEditNameField(Settings.java:1730)
+	at ✽.I enter a valid name in edit name field(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:71)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.008">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ✽.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:84)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.006">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ✽.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:104)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.007">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnAlertOkButton(Settings.java:1449)
+	at ✽.I tap on Alert Ok button(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:117)
+</failure>
+    <system-out><![CDATA[before step
+com.dometicapp:id/deviceManagement-masterPin-cardTitle
+NullPointerException thrown!
+NullPointerException thrown!
+NullPointerException thrown!
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.011">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnAlertOkButton(Settings.java:1449)
+	at ✽.I tap on Alert Ok button(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:125)
+</failure>
+    <system-out><![CDATA[before step
+com.dometicapp:id/deviceManagement-masterPin-cardTitle
+NullPointerException thrown!
+NullPointerException thrown!
+NullPointerException thrown!
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.013">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnAlertOkButton(Settings.java:1449)
+	at ✽.I tap on Alert Ok button(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:141)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.017">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.qa.util.Baseclass.asserttextValidationAccessibility(Baseclass.java:96)
+	at com.dometic.SDB.stepdefinition.Settings.iVerifyTheMainCoolerSettingText(Settings.java:1752)
+	at ✽.I Verify the main cooler setting text(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:205)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.007">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ✽.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:226)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.01">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iVerifyVersionIsDisplayed(Settings.java:60)
+	at ✽.I verify Version is displayed(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:236)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.016">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ✽.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:242)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="5.02">
+    <failure type="java.lang.NullPointerException:">java.lang.NullPointerException: null
+	at com.dometic.SDB.stepdefinition.Settings.iTapOnHamburgerMenuInLandingScreen(Settings.java:28)
+	at ✽.I Tap on hamburger menu in landing screen(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:266)
+</failure>
+    <system-out><![CDATA[before step
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="0.006">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.dometic.SDB.stepdefinition.Settings.tVerifyTemperatureUnitIsDisplayed(Settings.java:49)
+	at ✽.I Verify Temperature unit text is displayed(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:277)
+</failure>
+    <system-out><![CDATA[before step
+NullPointerException thrown!
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.dometic.SDB.androidrunner.SDB_runner" time="5.014">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.dometic.SDB.stepdefinition.Settings.iVerifyLanguagesIsDisplayed(Settings.java:43)
+	at ✽.I verify Languages text is displayed(src/test/java/com/dometic/SDB/features/TC07_Settings.feature:283)
+</failure>
+    <system-out><![CDATA[before step
+NullPointerException thrown!
+FAILED
+FAILED
+On Test Failure
+]]></system-out>
+    <system-err><![CDATA[java.lang.NullPointerException
+	at com.dometic.SDB.qa.util.ExtentReportUtil.ExtentReportScreenshot(ExtentReportUtil.java:30)
+	at com.dometic.SDB.androidrunner.NGTestListener.onTestFailure(NGTestListener.java:28)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1686)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1670)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:696)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]></system-err>
+  </testcase>
+</testsuite>
